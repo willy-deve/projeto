@@ -1,10 +1,10 @@
 import React from 'react';
 
-function End() {
+function End({ retry }) {
   return (
     <React.Fragment>
-      <h1>Growdev</h1>
-
+      <h1>Game over</h1>
+      <button onClick={retry}>Resetar  jogo</button>
     </React.Fragment>
   );
 }
