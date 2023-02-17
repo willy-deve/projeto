@@ -123,7 +123,7 @@ function App() {
         guesses={guesses}
         score={score}
       />}
-      {gameStage === "end" && <End retry={retry} />}
+      {gameStage === "end" && <End retry={retry} score={score} />}
 
     </div>
   );
